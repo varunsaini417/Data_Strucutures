@@ -53,10 +53,9 @@ int main(){
     Node * temp = ASearch(first, 3);
     if(temp){
         cout<<"\n"<<"Element founded and pushed to  the first node!!"<<"\n";
+        display(first);
     }else{
-        cout<<"\n"<<"Not Found";
+        cout<<"\n"<<"Not Found"<<"\n";
     }
-    
-    display(first);
     return 0;
 }
